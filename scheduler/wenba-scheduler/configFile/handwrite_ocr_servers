@@ -1,0 +1,13 @@
+{
+"handwriteOcrServers":[
+{"id":"hw_ocr_001","state":"UP","ip":"10.10.4.109","port":"9996","url":"","weight":10},
+{"id":"hw_ocr_002","state":"UP","ip":"10.10.29.169","port":"9996","url":"","weight":10},
+{"id":"hw_ocr_003","state":"UP","ip":"10.10.28.79","port":"9996","url":"","weight":10},
+{"id":"hw_ocr_004","state":"UP","ip":"10.10.2.43","port":"9996","url":"","weight":10},
+{"id":"hw_ocr_005","state":"UP","ip":"10.10.59.58","port":"9996","url":"","weight":10},
+{"id":"hw_ocr_006","state":"UP","ip":"10.10.53.155","port":"9996","url":"","weight":10},
+{"id":"hw_ocr_007","state":"UP","ip":"10.10.45.194","port":"9996","url":"","weight":10},
+{"id":"hw_ocr_008","state":"UP","ip":"10.10.1.241","port":"9996","url":"","weight":10},
+{"id":"hw_ocr_009","state":"UP","ip":"10.10.61.115","port":"9996","url":"","weight":10},
+{"id":"hw_ocr_010","state":"UP","ip":"10.10.47.201","port":"9996","url":"","weight":10}]
+}

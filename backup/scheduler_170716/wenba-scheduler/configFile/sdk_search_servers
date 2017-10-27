@@ -1,0 +1,5 @@
+{"sdkSearchServers":[
+{"sdk":[
+{"id":"searchfront_901","state":"UP","ip":"10.10.63.68","port":"8081","url":"/search/query","level":"question_bank_level_2","weight":10}
+]}
+]}

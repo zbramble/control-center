@@ -1,0 +1,4 @@
+scheduler/wenba-scheduler/target/*
+scheduler/wenba-scheduler/logs/*
+.DS_Store
+scheduler/wenba-scheduler/.DS_Store

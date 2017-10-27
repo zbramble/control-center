@@ -1,0 +1,5 @@
+{
+"searchHomeworkServers":[
+{"id":"mining-homework-01-C","state":"UP","ip":"10.10.7.225","port":"8082","url":"/mining/homework","weight":10},
+{"id":"mining-homework-02-C","state":"UP","ip":"10.10.3.71","port":"8082","url":"/mining/homework","weight":10}]
+}

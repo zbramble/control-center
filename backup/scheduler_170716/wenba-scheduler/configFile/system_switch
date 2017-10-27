@@ -1,0 +1,16 @@
+{
+"nlpOnSwitch":true,
+"biOnSwitch":true,
+"saveServerMonitorLogSwitch":true,
+"saveExceptionLogSwitch":true,
+"whiteListOnSwitch":false,
+"serverDownOnSwitch":false,
+"saveSearchArticleLogSwitch":false,
+"saveTimeoutLogSwitch":true,
+"mailOnSwitch":false,
+"execOcrOnlySwitch":false,
+"queryResultToRedisOnSwitch":false,
+"forceHbaseOnSwitch":true,
+"bkHbaseOnSwitch":false,
+"ugcHandwriteOcrOnSwitch":true
+}

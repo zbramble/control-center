@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans   
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd   
+    http://www.springframework.org/schema/tx   
+    http://www.springframework.org/schema/tx/spring-tx-3.0.xsd  
+    http://www.springframework.org/schema/context  
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd  
+    http://www.springframework.org/schema/mvc  
+    http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+
+	<!-- class type DI start -->
+	<bean id="schedulerConfiguration" class="com.wenba.scheduler.config.SchedulerConfiguration" />
+	<bean id="schedulerControllerStatistics" class="com.wenba.scheduler.SchedulerControllerStatistics" />
+	<bean id="saveHbaseData" class="com.wenba.scheduler.SaveHbaseData" />
+	<bean id="retrieveHbaseData" class="com.wenba.scheduler.RetrieveHbaseData" />
+	<bean id="schedulerAsyncUtil" class="com.wenba.scheduler.SchedulerAsyncUtil" />
+	<bean id="ocrHbaseQueue" class="java.util.concurrent.ConcurrentLinkedQueue" />
+	<bean id="searchHbaseQueue" class="java.util.concurrent.ConcurrentLinkedQueue" />
+	<bean id="ocrHbaseWordSearchQueue" class="java.util.concurrent.ConcurrentLinkedQueue" />
+	<bean id="searchHbaseWordSearchQueue" class="java.util.concurrent.ConcurrentLinkedQueue" />
+	<bean id="searchArticleQueryLogQueue" class="java.util.concurrent.ConcurrentLinkedQueue" />
+	<bean id="searchArticleAutoCompleteLogQueue" class="java.util.concurrent.ConcurrentLinkedQueue" />
+	<bean id="searchArticleHbaseQueue" class="java.util.concurrent.ConcurrentLinkedQueue" />
+	<bean id="queryBiQueue" class="java.util.concurrent.ConcurrentLinkedQueue" />
+	<bean id="queryResultToRedisQueue" class="java.util.concurrent.ConcurrentLinkedQueue" />
+	<bean id="hbaseMonitorQueue" class="java.util.concurrent.ConcurrentLinkedQueue" />
+	<bean id="miguOcrHbaseQueue" class="java.util.concurrent.ConcurrentLinkedQueue" />
+	<bean id="miguSearchHbaseQueue" class="java.util.concurrent.ConcurrentLinkedQueue" />
+	<bean id="miguOcrHbaseWordSearchQueue" class="java.util.concurrent.ConcurrentLinkedQueue" />
+	<bean id="miguSearchHbaseWordSearchQueue" class="java.util.concurrent.ConcurrentLinkedQueue" />
+	<bean id="sdkOcrHbaseQueue" class="java.util.concurrent.ConcurrentLinkedQueue" />
+	<bean id="sdkSearchHbaseQueue" class="java.util.concurrent.ConcurrentLinkedQueue" />
+	<bean id="mapper" class="com.fasterxml.jackson.databind.ObjectMapper" />
+	<!-- class type DI end -->
+	<!-- factory type DI start -->
+	<bean id="ocrStrategy" class="com.wenba.scheduler.ocr.OcrStrategyFactory" />
+	<bean id="handwriteOcrStrategy" class="com.wenba.scheduler.ocr.HandwriteOcrStrategyFactory" />
+	<bean id="searchStrategy" class="com.wenba.scheduler.search.SearchStrategyFactory" />
+	<bean id="wordSearchStrategy" class="com.wenba.scheduler.search.WordSearchStrategyFactory" />
+	<bean id="searchClassicPoemStrategy"
+		class="com.wenba.scheduler.search.SearchClassicPoemStrategyFactory" />
+	<bean id="searchByIdStrategy" class="com.wenba.scheduler.search.SearchByIdStrategyFactory" />
+	<bean id="searchHomeworkStrategy"
+		class="com.wenba.scheduler.search.SearchHomeworkStrategyFactory" />
+	<bean id="searchArticleStrategy" class="com.wenba.scheduler.search.SearchArticleStrategyFactory" />
+	<bean id="configStrategy" class="com.wenba.scheduler.config.ConfigStrategyFactory" />
+	<bean id="configFromHtmlStrategy"
+		class="com.wenba.scheduler.config.ConfigFromHtmlStrategyFactory" />
+	<bean id="biStrategy" class="com.wenba.scheduler.statistics.BIStrategyFactory" />
+	<bean id="nlpStrategy" class="com.wenba.scheduler.nlp.NlpStrategyFactory" />
+	<bean id="emStrategy" class="com.wenba.scheduler.em.EmStrategyFactory" />
+	<bean id="jzhStrategy" class="com.wenba.scheduler.jzh.JzhStrategyFactory" />
+	<bean id="sdkSearchStrategy" class="com.wenba.scheduler.search.SdkSearchStrategyFactory" />
+	<bean id="ugcCommonStrategy" class="com.wenba.scheduler.ugc.UgcCommonStrategyFactory" />
+	<bean id="ugcHandwriteOcrStrategy" class="com.wenba.scheduler.ugc.UgcHandwriteOcrStrategyFactory" />
+	<bean id="searchMatrixStrategy" class="com.wenba.scheduler.search.SearchMatrixStrategyFactory" />
+	<!-- factory type DI end -->
+</beans>

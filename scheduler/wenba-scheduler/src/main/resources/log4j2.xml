@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+
+	<properties>
+		<property name="LOG_HOME">logs</property>
+	</properties>
+
+	<Appenders>
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout pattern="W->%d %p-%m%n" />
+		</Console>
+		<RollingFile name="file" fileName="${LOG_HOME}/wenba-scheduler.log"
+			filePattern="${LOG_HOME}/$${date:yyyy-MM}/wenba-scheduler-%d{MM-dd-yyyy}-%i.log.gz"
+			bufferedIO="false">
+			<PatternLayout pattern="W->%d %p-%m%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="250 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+
+		<Console name="biConsole" target="SYSTEM_OUT">
+			<PatternLayout pattern="B->%d %p-%m%n" />
+		</Console>
+		<RollingFile name="biFile" fileName="${LOG_HOME}/bi.log"
+			filePattern="${LOG_HOME}/$${date:yyyy-MM}/bi-%d{MM-dd-yyyy}-%i.log.gz"
+			bufferedIO="true">
+			<PatternLayout pattern="B->%d %p-%m%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="250 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+
+		<Console name="timeoutConsole" target="SYSTEM_OUT">
+			<PatternLayout pattern="T->%d %p-%m%n" />
+		</Console>
+		<RollingFile name="timeoutFile" fileName="${LOG_HOME}/timeout.log"
+			filePattern="${LOG_HOME}/$${date:yyyy-MM}/timeout-%d{MM-dd-yyyy}-%i.log.gz"
+			bufferedIO="false">
+			<PatternLayout pattern="T->%d %p-%m%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="250 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+
+		<Console name="debugInfoConsole" target="SYSTEM_OUT">
+			<PatternLayout pattern="D->%d %p-%m%n" />
+		</Console>
+		<RollingFile name="debugInfoFile" fileName="${LOG_HOME}/debugInfo.log"
+			filePattern="${LOG_HOME}/$${date:yyyy-MM}/debugInfo-%d{MM-dd-yyyy}-%i.log.gz"
+			bufferedIO="false">
+			<PatternLayout pattern="D->%d %p-%m%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="250 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+
+		<Console name="exceptionConsole" target="SYSTEM_OUT">
+			<PatternLayout pattern="E->%d %p-%m%n" />
+		</Console>
+		<RollingFile name="exceptionFile" fileName="${LOG_HOME}/exception.log"
+			filePattern="${LOG_HOME}/$${date:yyyy-MM}/exception-%d{MM-dd-yyyy}-%i.log.gz"
+			bufferedIO="false">
+			<PatternLayout pattern="E->%d %p-%m%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="250 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+
+		<Console name="serverMonitorConsole" target="SYSTEM_OUT">
+			<PatternLayout pattern="SM->%d %p-%m%n" />
+		</Console>
+		<RollingFile name="serverMonitorFile" fileName="${LOG_HOME}/server_monitor.log"
+			filePattern="${LOG_HOME}/$${date:yyyy-MM}/server_monitor-%d{MM-dd-yyyy}-%i.log.gz"
+			bufferedIO="false">
+			<PatternLayout pattern="%p %m %d%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="250 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+
+		<Console name="hbaseConsole" target="SYSTEM_OUT">
+			<PatternLayout pattern="H->%d %p-%m%n" />
+		</Console>
+		<RollingFile name="hbaseFile" fileName="${LOG_HOME}/hbase.log"
+			filePattern="${LOG_HOME}/$${date:yyyy-MM}/hbase-%d{MM-dd-yyyy}-%i.log.gz"
+			bufferedIO="true">
+			<PatternLayout pattern="H->%d %p-%m%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="250 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+
+		<Console name="redisConsole" target="SYSTEM_OUT">
+			<PatternLayout pattern="R->%d %p-%m%n" />
+		</Console>
+		<RollingFile name="redisFile" fileName="${LOG_HOME}/redis.log"
+			filePattern="${LOG_HOME}/$${date:yyyy-MM}/redis-%d{MM-dd-yyyy}-%i.log.gz"
+			bufferedIO="false">
+			<PatternLayout pattern="%m%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="250 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+
+		<Console name="configConsole" target="SYSTEM_OUT">
+			<PatternLayout pattern="C->%d %p-%m%n" />
+		</Console>
+		<RollingFile name="configFile" fileName="${LOG_HOME}/config.log"
+			filePattern="${LOG_HOME}/$${date:yyyy-MM}/config-%d{MM-dd-yyyy}-%i.log.gz"
+			bufferedIO="false">
+			<PatternLayout pattern="C->%d %p-%m%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="250 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="console" />
+			<AppenderRef ref="file" />
+		</Root>
+
+		<Logger name="bi" level="info" additivity="false">
+			<AppenderRef ref="biConsole" />
+			<AppenderRef ref="biFile" />
+		</Logger>
+
+		<Logger name="timeout" level="info" additivity="false">
+			<AppenderRef ref="timeoutConsole" />
+			<AppenderRef ref="timeoutFile" />
+		</Logger>
+
+		<Logger name="debugInfo" level="info" additivity="false">
+			<AppenderRef ref="debugInfoConsole" />
+			<AppenderRef ref="debugInfoFile" />
+		</Logger>
+
+		<Logger name="exception" level="info" additivity="false">
+			<AppenderRef ref="exceptionConsole" />
+			<AppenderRef ref="exceptionFile" />
+		</Logger>
+
+		<Logger name="serverMonitor" level="info" additivity="false">
+			<AppenderRef ref="serverMonitorConsole" />
+			<AppenderRef ref="serverMonitorFile" />
+		</Logger>
+
+		<Logger name="org.apache.hadoop.hbase" level="info" additivity="false">
+			<AppenderRef ref="hbaseConsole" />
+			<AppenderRef ref="hbaseFile" />
+		</Logger>
+
+		<Logger name="redis" level="info" additivity="false">
+			<AppenderRef ref="redisConsole" />
+			<AppenderRef ref="redisFile" />
+		</Logger>
+
+		<Logger name="config" level="info" additivity="false">
+			<AppenderRef ref="configConsole" />
+			<AppenderRef ref="configFile" />
+		</Logger>
+	</Loggers>
+</Configuration>

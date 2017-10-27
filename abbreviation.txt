@@ -1,0 +1,60 @@
+﻿AET:Average Exec Time
+ANET:Average Nlp Exec Time
+AOHET:Average save Ocr to Hbase Exec Time
+ARN:All Request Num
+ASAHET:Average save Search Article to Hbase Exec Time
+ASHET:Average save Search to Hbase Exec Time
+CPE:Client Protocol Exception
+CTE:Connect Timeout Exception
+DBCHCR:Decrease BI Current Http Client Request Num
+DMHCHCR:Decrease Mining Homework Current Http Client Request Num
+DNCHCR:Decrease Nlp Current Http Client Request Num
+DOCHCR:Decrease Ocr Current Http Client Request Num
+DSACHCR:Decrease Search Article Current Http Client Request Num
+DSBICHCR:Decrease Search By Id Current Http Client Request Num
+DSCHCR:Decrease Search Current Http Client Request Num
+DCR:Decrease Current Request Num
+FN:Fail Num
+HENE:Http Entity is Null Exception
+HESE:Http Entity to String is null Exception
+HHCE:Http Host Connect Exception
+HSNE:Http Status Not ok Exception
+IBCHCR:Increase BI Current Http Client Request Num
+IMHCHCR:Increase Mining Homework Current Http Client Request Num
+INCHCR:Increase Nlp Current Http Client Request Num
+IOCHCR:Increase Ocr Current Http Client Request Num
+ISACHCR:Increase Search Article Current Http Client Request Num
+ISBICHCR:Increase Search By Id Current Http Client Request Num
+ISCHCR:Increase Search Current Http Client Request Num
+ICR:Increase Current Request Num
+IIN:Image Is Null
+IOE:IO Exception
+JE:Json Exception
+MHET:Mining Homework Exec Time
+NET:Nlp Exec Time
+NHRE:No Http Response Exception
+OET:Ocr Exec Time
+OFTE:Ocr Fail Type Exception
+OHET:save Ocr to Hbase Exec Time
+OHRN:Ocr Hbase Result Num
+QBI:Query By Id
+SAET:Search Article Exec Time
+SAHET:save Search Article to Hbase Exec Time
+SAHRN:Search Article Hbase Result Num
+SBIET:Search By Id Exec Time
+SET:Search Exec Time
+SHET:save Search to Hbase Exec Time
+SHRN:Search Hbase Result Num
+SJE:Search Json Exception
+SMHET:Search Mining Homework Exec Time
+SO:Save Ocr to hbase
+SR:Search Request
+SS:Save Search to hbase
+SSA:Save Search Article to hbase
+STE:Socket Timeout Exception
+TOE:Total Ocr Exception
+TQE:Total Query Exception
+TSE:Total Search Exception
+TSHE:Total Search Homework Exception
+UEE:Unsupported Encoding Exception
+USE:URI Syntax Exception

@@ -1,0 +1,11 @@
+{
+"searchServers":[
+{"id":"searchfront_301","state":"UP","ip":"10.10.145.146","port":"8081","url":"","weight":10},
+{"id":"searchfront_401","state":"UP","ip":"10.10.165.150","port":"8081","url":"","weight":10},
+{"id":"searchfront_501","state":"UP","ip":"10.10.39.37","port":"8081","url":"","weight":10},
+{"id":"searchfront_601","state":"UP","ip":"10.10.37.40","port":"8081","url":"","weight":10},
+{"id":"searchfront_701","state":"UP","ip":"10.10.51.211","port":"8081","url":"","weight":10},
+{"id":"searchfront_801","state":"UP","ip":"10.10.4.89","port":"8081","url":"","weight":10},
+{"id":"searchfront_901","state":"UP","ip":"10.10.63.68","port":"8081","url":"","weight":10},
+{"id":"searchfront_1001","state":"UP","ip":"10.10.18.32","port":"8081","url":"","weight":10}]
+}

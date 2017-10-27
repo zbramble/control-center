@@ -1,0 +1,6 @@
+{
+"hbase.client.retries.number":"1",
+"zookeeper.session.timeout":"30000",
+"zookeeper.recovery.retry":"1",
+"hbase.zookeeper.quorum":"hbase01-c:2181,hbase02-c:2181,hbase03-c:2181"
+}

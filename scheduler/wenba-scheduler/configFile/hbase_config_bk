@@ -1,0 +1,9 @@
+{
+"hbase.cluster.distributed":"true",
+"hbase.rootdir":"hdfs://Ucluster/hbase",
+"hbase.regionserver.handler.count":"100",
+"hfile.block.cache.size":"0.3",
+"hbase.regionserver.restart.on.zk.expire":"true",
+"hbase.zookeeper.quorum":"uhadoop-cqybya-master1,uhadoop-cqybya-master2,uhadoop-cqybya-core1",
+"hbase.rest.port":"60050"
+}

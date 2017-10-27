@@ -1,0 +1,4 @@
+{
+"searchMatrixServers":[
+{"id":"search-matrix","state":"UP","ip":"10.2.1.159","port":"8080","url":"","weight":10}]
+}

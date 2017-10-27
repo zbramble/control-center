@@ -1,0 +1,69 @@
+﻿开关均为true开启，false关闭。
+
+1.allRequestAndHbaseQueueDebugSwitch: all request and hbase queue num debug switch
+
+2.currentRequestDebugSwitch: current request debug switch
+ICR:增加后当前请求数
+DCR:减少后当前请求数
+
+3.httpclientDebugSwitch: httpclient debug switch
+ICHCR:增加后当前httpclient数
+DCHCR:减少后当前httpclient数
+
+4.gcDebugSwitch: GC debug switch
+是否手动执行GC
+
+5.displayMarksDebugSwitch：display marks debug switch
+显示marks信息
+
+6.avgQueryExecTimeDebugSwitch: avg query exec time debug switch
+7.avgQueryByIdExecTimeDebugSwitch: avg query by id exec time debug switch
+8.avgHomeworkExecTimeDebugSwitch: avg mining homework exec time debug switch
+9.avgSearchExecTimeDebugSwitch: avg search exec time debug switch
+10.avgArticleExecTimeDebugSwitch: avg search article exec time debug switch
+11.avgOcrHbaseExecTimeDebugSwitch: avg save ocr hbase exec time debug switch
+12.avgSearchHbaseExecTimeDebugSwitch: avg save search hbase exec time debug switch
+13.avgCnnServerExecTimeDebugSwitch: avg cnn server exec time debug switch
+14.avgJavaServerExecTimeDebugSwitch: avg java server exec time debug switch
+15.avgSearchServerExecTimeDebugSwitch: avg search server exec time debug switch
+16.avgSearchByIdServerExecTimeDebugSwitch: avg search by id server exec time debug switch
+17.avgSearchHomeworkServerExecTimeDebugSwitch: avg search homework server exec time debug switch
+18.avgSearchArticleServerExecTimeDebugSwitch: avg search article server exec time debug switch
+19.avgNlpServerExecTimeDebugSwitch: avg nlp server exec time debug switch
+20.queryExecTimeDebugSwitch: query exec time debug switch
+21.queryByIdExecTimeDebugSwitch: query by id exec time debug switch
+22.homeworkExecTimeDebugSwitch: mining homework exec time debug switch
+23.searchExecTimeDebugSwitch: search exec time debug switch
+24.articleExecTimeDebugSwitch: search article exec time debug switch
+25.ocrHbaseExecTimeDebugSwitch: save ocr to hbase exec time
+26.searchHbaseExecTimeDebugSwitch: save search to hbase exec time
+27.cnnServerExecTimeDebugSwitch: cnn server exec time debug switch
+28.javaServerExecTimeDebugSwitch: java server exec time debug switch
+29.searchServerExecTimeDebugSwitch: search server exec time debug switch
+30.searchByIdServerExecTimeDebugSwitch: search by id server exec time debug switch
+31.searchHomeworkServerExecTimeDebugSwitch: search homework server exec time debug switch
+32.searchArticleServerExecTimeDebugSwitch: search article server exec time debug switch
+33.nlpServerExecTimeDebugSwitch: nlp server exec time debug switch
+34.avgSearchArticleHbaseExecTimeDebugSwitch: avg save search article hbase exec time debug switch
+35.searchArticleHbaseExecTimeDebugSwitch: save search article to hbase exec time
+
+hbaseOnSwitch:
+是否打开hbase
+
+saveExceptionLogSwitch:
+是否打印Exception日志
+
+saveServerMonitorLogSwitch:
+是否打印服务器监控日志（HttpHostConnectException和ConnectTimeoutException，NoHttpResponseException、SocketTimeoutException和Http Status不是ok的error）
+
+nlpOnSwitch:
+是否打开nlp
+
+biOnSwitch:
+是否打开bi
+
+whiteListOnSwitch:
+是否启用白名单功能
+
+serverDownOnSwitch：
+是否启用服务器下线功能

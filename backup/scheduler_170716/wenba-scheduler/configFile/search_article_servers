@@ -1,0 +1,5 @@
+{
+"searchArticleServers":[
+{"id":"searcharticle01-front01-c","state":"UP","ip":"10.10.16.153","port":"8081","url":"","weight":10},
+{"id":"searcharticle01-front02-c","state":"UP","ip":"10.10.63.15","port":"8081","url":"","weight":10}]
+}

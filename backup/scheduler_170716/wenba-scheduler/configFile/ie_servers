@@ -1,0 +1,4 @@
+{
+"ieServers":[
+{"id":"imagesearch_train_002","state":"UP","ip":"10.10.11.33","port":"8088","url":"","weight":10}]
+}

@@ -1,0 +1,11 @@
+{
+"region":"cn-bj2",
+"expireIn":7200,
+"publicKey":"gnG3Va/XmdDLkd+7AqnydcyG8gicX4E229RyiqlDVIc=",
+"privateKey":"7611dabd38925dea42e64ae9726d152c5790f08f",
+
+"commonApiUrl":"api.ucloud.cn",
+"taskApiUrl":"api.ugc.service.ucloud.cn",
+
+"imageName":"cn-bj2.ugchub.service.ucloud.cn/pzdy_ocr_nlp/hw_ugc:v3.06"
+}

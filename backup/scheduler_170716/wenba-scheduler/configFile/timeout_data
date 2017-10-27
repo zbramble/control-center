@@ -1,0 +1,16 @@
+{
+"connectTimeout":1500,
+"ocrTimeout":21000,
+"searchTimeout":4000,
+"searchByIdTimeout":3000,
+"searchHomeworkTimeout":25000,
+"searchArticleTimeout":5000,
+"nlpTimeout":3000,
+"biTimeout":1000,
+"queryTimeout":29000,
+"emTimeout":5000,
+"hbaseTimeout":3000,
+"hbaseMonitorTime":300000,
+"ieTimeout":16500,
+"ugcCommonTimeout":5000
+}

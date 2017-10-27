@@ -1,0 +1,150 @@
+C->2017-07-16 00:52:13,687 INFO-config success!
+
+ old system data:
+
+
+ new system data:
+{"schedulerId":"wenba_scheduler_0x","ocrServerCnnWeight":1,"ocrServerJavaWeight":0,"thresUnusedResult":"30.0","limit":5,"marksThreshold":50,"schedulerStrategy":1,"cnnProcessNumThres":15,"cnnProcessMaxNumThres":24,"searchProcessNumThres":50,"searchQuery":"/search/query","searchQueryById":"/tiku/queryById","searchQueryByIdUser":"bo.zhang","searchQueryByIdToken":"sqrtysyxsyt3xf","wordSearchQuery":"/search/query","classicPoemQuery":"/search/classicPoem/query","classicPoemAutoComplete":"/search/classicPoem/autoComplete","articleQuery":"/article/query","articleQueryById":"/article/queryById","articleAutoComplete":"/article/autoComplete","articleQueryLogAddress":"hdfs://hadoop-namenode-c:9000/article/article_query_log/","articleAutoCompleteLogAddress":"hdfs://hadoop-namenode-c:9000/article/article_autocomplete_log/","emQuery":"/em_online","asyncQueueSize":30000,"queryRequestLimit":1500,"queryBiQueueLimit":100000,"jedisIp":"10.10.161.52","jedisPort":6379,"localJedisIp":"10.10.180.6","localJedisPort":6379,"redisExpireSeconds":7200,"maxTotalConnections":5000,"defaultMaxConnectionsPerRoute":1000,"cnnConnectionsPerRoute":100,"searchConnectionsPerRoute":500}
+
+
+old system switch:
+
+
+ new system switch:
+{"nlpOnSwitch":true,"biOnSwitch":true,"saveServerMonitorLogSwitch":true,"saveExceptionLogSwitch":true,"whiteListOnSwitch":false,"serverDownOnSwitch":false,"saveSearchArticleLogSwitch":false,"saveTimeoutLogSwitch":true,"mailOnSwitch":false,"execOcrOnlySwitch":false,"queryResultToRedisOnSwitch":false,"forceHbaseOnSwitch":true,"bkHbaseOnSwitch":false,"ugcHandwriteOcrOnSwitch":true}
+
+
+old debug switch:
+
+
+ new debug switch:
+{"allRequestAndHbaseQueueDebugSwitch":false,"currentRequestDebugSwitch":false,"httpclientDebugSwitch":false,"gcDebugSwitch":false,"displayMarksDebugSwitch":false,"currentCnnOcrRequestDebugSwitch":false,"currentSearchRequestDebugSwitch":false,"currentNlpRequestDebugSwitch":false,"avgQueryExecTimeDebugSwitch":false,"avgQueryByIdExecTimeDebugSwitch":false,"avgHomeworkExecTimeDebugSwitch":false,"avgSearchExecTimeDebugSwitch":false,"avgWordSearchExecTimeDebugSwitch":false,"avgArticleExecTimeDebugSwitch":false,"avgOcrHbaseExecTimeDebugSwitch":false,"avgSearchHbaseExecTimeDebugSwitch":false,"avgSearchArticleHbaseExecTimeDebugSwitch":false,"avgCnnServerExecTimeDebugSwitch":false,"avgJavaServerExecTimeDebugSwitch":false,"avgSearchServerExecTimeDebugSwitch":false,"avgWordSearchServerExecTimeDebugSwitch":false,"avgSearchByIdServerExecTimeDebugSwitch":false,"avgSearchHomeworkServerExecTimeDebugSwitch":false,"avgSearchArticleServerExecTimeDebugSwitch":false,"avgNlpServerExecTimeDebugSwitch":false,"queryExecTimeDebugSwitch":false,"queryByIdExecTimeDebugSwitch":false,"homeworkExecTimeDebugSwitch":false,"searchExecTimeDebugSwitch":false,"wordSearchExecTimeDebugSwitch":false,"articleExecTimeDebugSwitch":false,"classicPoemQueryExecTimeDebugSwitch":false,"classicPoemAutoCompleteExecTimeDebugSwitch":false,"emQueryExecTimeDebugSwitch":false,"ocrHbaseExecTimeDebugSwitch":false,"searchHbaseExecTimeDebugSwitch":false,"searchArticleHbaseExecTimeDebugSwitch":false,"cnnServerExecTimeDebugSwitch":false,"javaServerExecTimeDebugSwitch":false,"searchServerExecTimeDebugSwitch":false,"wordSearchServerExecTimeDebugSwitch":false,"searchByIdServerExecTimeDebugSwitch":false,"searchHomeworkServerExecTimeDebugSwitch":false,"searchArticleServerExecTimeDebugSwitch":false,"nlpServerExecTimeDebugSwitch":false,"redisDebugSwitch":false,"bkHbaseDebugSwitch":false}
+
+
+old config servers:
+
+
+ new config servers:
+{"accessServers":[{"id":"pzdy_web_001","state":"UP","ip":"10.10.61.184","port":"","url":"","weight":0},{"id":"pzdy_web_002","state":"UP","ip":"10.10.47.96","port":"","url":"","weight":0},{"id":"pzdy_web_003","state":"UP","ip":"10.10.71.234","port":"","url":"","weight":0},{"id":"pzdy_web_004","state":"UP","ip":"10.10.23.85","port":"","url":"","weight":0},{"id":"pzdy_web_005","state":"UP","ip":"10.10.51.47","port":"","url":"","weight":0},{"id":"pzdy_web_006","state":"UP","ip":"10.10.25.133","port":"","url":"","weight":0},{"id":"pzdy_web_007","state":"UP","ip":"10.10.25.215","port":"","url":"","weight":0},{"id":"pzdy_web_008","state":"UP","ip":"10.10.9.72","port":"","url":"","weight":0},{"id":"worker01_C","state":"UP","ip":"10.10.52.17","port":"","url":"","weight":0},{"id":"worker02_C","state":"UP","ip":"10.10.58.57","port":"","url":"","weight":0},{"id":"pzdy_web_009","state":"UP","ip":"10.10.10.132","port":"","url":"","weight":0},{"id":"pzdy_web_010","state":"UP","ip":"10.10.29.198","port":"","url":"","weight":0},{"id":"pzdy_web_011","state":"UP","ip":"10.10.53.95","port":"","url":"","weight":0},{"id":"pzdy_web_012","state":"UP","ip":"10.10.33.77","port":"","url":"","weight":0},{"id":"pzdy_web_013","state":"UP","ip":"10.10.17.109","port":"","url":"","weight":0},{"id":"pzdy_web_014","state":"UP","ip":"10.10.29.17","port":"","url":"","weight":0},{"id":"pzdy_web_015","state":"UP","ip":"10.10.1.102","port":"","url":"","weight":0},{"id":"pzdy_web_016","state":"UP","ip":"10.10.18.145","port":"","url":"","weight":0},{"id":"pzdy_web_017","state":"UP","ip":"10.10.82.195","port":"","url":"","weight":0},{"id":"pzdy_web_018","state":"UP","ip":"10.10.95.36","port":"","url":"","weight":0},{"id":"pzdy_web_019","state":"UP","ip":"10.10.87.198","port":"","url":"","weight":0},{"id":"pzdy_web_020","state":"UP","ip":"10.10.89.62","port":"","url":"","weight":0},{"id":"wenba_automation","state":"UP","ip":"10.10.15.78","port":"","url":"","weight":0},{"id":"answer_C","state":"UP","ip":"10.10.38.178","port":"","url":"","weight":0}]}
+
+
+old cnn servers:
+
+
+ new cnn servers:
+{"cnnServers":[{"id":"pzdy_ocr_001","state":"UP","ip":"10.10.18.181","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_002","state":"UP","ip":"10.10.11.95","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_003","state":"UP","ip":"10.10.40.228","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_004","state":"UP","ip":"10.10.63.44","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_005","state":"UP","ip":"10.10.52.149","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_006","state":"UP","ip":"10.10.47.41","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_007","state":"UP","ip":"10.10.45.62","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_008","state":"UP","ip":"10.10.5.230","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_009","state":"UP","ip":"10.10.37.28","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_010","state":"UP","ip":"10.10.36.37","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_011","state":"UP","ip":"10.10.7.239","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_012","state":"UP","ip":"10.10.9.139","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_013","state":"UP","ip":"10.10.33.18","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_014","state":"UP","ip":"10.10.43.19","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_015","state":"UP","ip":"10.10.42.238","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_016","state":"UP","ip":"10.10.21.165","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_017","state":"UP","ip":"10.10.9.35","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_018","state":"UP","ip":"10.10.36.8","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_019","state":"UP","ip":"10.10.32.48","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_020","state":"UP","ip":"10.10.62.195","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_021","state":"UP","ip":"10.10.26.161","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_022","state":"UP","ip":"10.10.63.40","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_023","state":"UP","ip":"10.10.21.202","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_024","state":"UP","ip":"10.10.10.218","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_025","state":"UP","ip":"10.10.4.239","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_026","state":"UP","ip":"10.10.55.227","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_027","state":"UP","ip":"10.10.38.219","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_028","state":"UP","ip":"10.10.28.188","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_029","state":"UP","ip":"10.10.42.33","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_030","state":"UP","ip":"10.10.53.125","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_031","state":"UP","ip":"10.10.59.108","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_032","state":"UP","ip":"10.10.59.38","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_033","state":"UP","ip":"10.10.4.109","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_034","state":"UP","ip":"10.10.29.169","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_035","state":"UP","ip":"10.10.28.79","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_036","state":"UP","ip":"10.10.2.43","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_037","state":"UP","ip":"10.10.59.58","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_038","state":"UP","ip":"10.10.53.155","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_039","state":"UP","ip":"10.10.45.194","port":"8089","url":"","weight":10},{"id":"pzdy_ocr_040","state":"UP","ip":"10.10.1.241","port":"8089","url":"","weight":10}]}
+
+
+old java servers:
+
+
+ new java servers:
+{"javaServers":[{"id":"ocr-java-02","state":"UP","ip":"10.9.9.26","port":"8697","url":"/wenba/FileUpLoad","weight":5},{"id":"ocr-java-03","state":"UP","ip":"10.9.2.228","port":"8697","url":"/wenba/FileUpLoad","weight":5},{"id":"ocr-java-04","state":"UP","ip":"10.9.14.7","port":"8697","url":"/wenba/FileUpLoad","weight":5},{"id":"ocr-java-05","state":"UP","ip":"10.9.5.97","port":"8697","url":"/wenba/FileUpLoad","weight":5},{"id":"ocr-java-06","state":"UP","ip":"10.9.6.22","port":"8697","url":"/wenba/FileUpLoad","weight":5},{"id":"ocr-java-07","state":"UP","ip":"10.9.6.21","port":"8697","url":"/wenba/FileUpLoad","weight":5},{"id":"ocr-java-08","state":"UP","ip":"10.9.2.42","port":"8697","url":"/wenba/FileUpLoad","weight":5},{"id":"ocr-java-09","state":"UP","ip":"10.9.2.56","port":"8697","url":"/wenba/FileUpLoad","weight":5},{"id":"ocr-java-10","state":"UP","ip":"10.9.8.175","port":"8697","url":"/wenba/FileUpLoad","weight":5},{"id":"java_ocr_pm01","state":"UP","ip":"10.9.11.172","port":"8697","url":"/wenba/FileUpLoad","weight":20},{"id":"java_ocr_pm02","state":"UP","ip":"10.9.8.24","port":"8697","url":"/wenba/FileUpLoad","weight":20},{"id":"java_ocr_pm03","state":"UP","ip":"10.9.10.142","port":"8697","url":"/wenba/FileUpLoad","weight":20},{"id":"java_ocr_pm04","state":"UP","ip":"10.9.12.12","port":"8697","url":"/wenba/FileUpLoad","weight":20},{"id":"java_ocr_pm05","state":"UP","ip":"10.9.12.92","port":"8697","url":"/wenba/FileUpLoad","weight":20},{"id":"java_ocr_pm06","state":"UP","ip":"10.9.11.199","port":"8697","url":"/wenba/FileUpLoad","weight":20},{"id":"java_ocr_pm07","state":"UP","ip":"10.9.16.55","port":"8697","url":"/wenba/FileUpLoad","weight":20}]}
+
+
+old search servers:
+
+
+ new search servers:
+{"searchServers":[{"id":"searchfront_301","state":"UP","ip":"10.10.145.146","port":"8081","url":"","weight":10},{"id":"searchfront_401","state":"UP","ip":"10.10.165.150","port":"8081","url":"","weight":10},{"id":"searchfront_501","state":"UP","ip":"10.10.39.37","port":"8081","url":"","weight":10},{"id":"searchfront_601","state":"UP","ip":"10.10.37.40","port":"8081","url":"","weight":10},{"id":"searchfront_701","state":"UP","ip":"10.10.51.211","port":"8081","url":"","weight":10},{"id":"searchfront_801","state":"UP","ip":"10.10.4.89","port":"8081","url":"","weight":10},{"id":"searchfront_901","state":"UP","ip":"10.10.63.68","port":"8081","url":"","weight":10},{"id":"searchfront_1001","state":"UP","ip":"10.10.18.32","port":"8081","url":"","weight":10}]}
+
+
+old search homework servers:
+
+
+ new search homework servers:
+{"searchHomeworkServers":[{"id":"mining-homework-01-C","state":"UP","ip":"10.10.7.225","port":"8082","url":"/mining/homework","weight":10},{"id":"mining-homework-02-C","state":"UP","ip":"10.10.3.71","port":"8082","url":"/mining/homework","weight":10}]}
+
+
+old search article servers:
+
+
+ new search article servers:
+{"searchArticleServers":[{"id":"searcharticle01-front01-c","state":"UP","ip":"10.10.16.153","port":"8081","url":"","weight":10},{"id":"searcharticle01-front02-c","state":"UP","ip":"10.10.63.15","port":"8081","url":"","weight":10}]}
+
+
+old search by id servers:
+
+
+ new search by id servers:
+{"searchByIdServers":[{"id":"ulb","state":"UP","ip":"10.10.248.192","port":"8081","url":"","weight":10}]}
+
+
+old nlp servers:
+
+
+ new nlp servers:
+{"nlpServers":[{"id":"pzdy_nlp_001","state":"UP","ip":"10.10.18.181","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_002","state":"UP","ip":"10.10.11.95","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_003","state":"UP","ip":"10.10.40.228","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_004","state":"UP","ip":"10.10.63.44","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_005","state":"UP","ip":"10.10.52.149","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_006","state":"UP","ip":"10.10.47.41","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_007","state":"UP","ip":"10.10.45.62","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_008","state":"UP","ip":"10.10.5.230","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_009","state":"UP","ip":"10.10.37.28","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_010","state":"UP","ip":"10.10.36.37","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_011","state":"UP","ip":"10.10.7.239","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_012","state":"UP","ip":"10.10.9.139","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_013","state":"UP","ip":"10.10.33.18","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_014","state":"UP","ip":"10.10.43.19","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_015","state":"UP","ip":"10.10.42.238","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_016","state":"UP","ip":"10.10.21.165","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_017","state":"UP","ip":"10.10.9.35","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_018","state":"UP","ip":"10.10.36.8","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_019","state":"UP","ip":"10.10.32.48","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_020","state":"UP","ip":"10.10.62.195","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_021","state":"UP","ip":"10.10.26.161","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_022","state":"UP","ip":"10.10.63.40","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_023","state":"UP","ip":"10.10.21.202","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_024","state":"UP","ip":"10.10.10.218","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_025","state":"UP","ip":"10.10.4.239","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_026","state":"UP","ip":"10.10.55.227","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_027","state":"UP","ip":"10.10.38.219","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_028","state":"UP","ip":"10.10.28.188","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_029","state":"UP","ip":"10.10.42.33","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_030","state":"UP","ip":"10.10.53.125","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_031","state":"UP","ip":"10.10.59.108","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_032","state":"UP","ip":"10.10.59.38","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_033","state":"UP","ip":"10.10.4.109","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_034","state":"UP","ip":"10.10.29.169","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_035","state":"UP","ip":"10.10.28.79","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_036","state":"UP","ip":"10.10.2.43","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_037","state":"UP","ip":"10.10.59.58","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_038","state":"UP","ip":"10.10.53.155","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_039","state":"UP","ip":"10.10.45.194","port":"8088","url":"","weight":10},{"id":"pzdy_nlp_040","state":"UP","ip":"10.10.1.241","port":"8088","url":"","weight":10}]}
+
+
+old bi servers:
+
+
+ new bi servers:
+{"biServers":[{"id":"aw_lb_001","state":"UP","ip":"bi-aw.xueba100.com","port":"8080","url":"/event","weight":100}]}
+
+
+old timeout data:
+
+
+ new timeout data:
+{"connectTimeout":1500,"ocrTimeout":21000,"searchTimeout":4000,"searchByIdTimeout":3000,"searchHomeworkTimeout":25000,"searchArticleTimeout":5000,"nlpTimeout":3000,"biTimeout":1000,"queryTimeout":29000,"emTimeout":5000,"hbaseTimeout":3000,"hbaseMonitorTime":300000,"ieTimeout":16500,"ugcCommonTimeout":5000}
+
+
+old em servers:
+
+
+ new em servers:
+{"emServers":[{"id":"formula_001","state":"UP","ip":"10.2.1.112","port":"8000","url":"","weight":10}]}
+
+
+old hbase config:
+
+
+ new hbase config:
+{"hbase.client.retries.number":"1","zookeeper.session.timeout":"30000","zookeeper.recovery.retry":"1","hbase.zookeeper.quorum":"hbase01-c:2181,hbase02-c:2181,hbase03-c:2181"}
+
+
+old hbase config bk:
+
+
+ new hbase config bk:
+{"hbase.cluster.distributed":"true","hbase.rootdir":"hdfs://Ucluster/hbase","hbase.regionserver.handler.count":"100","hfile.block.cache.size":"0.3","hbase.regionserver.restart.on.zk.expire":"true","hbase.zookeeper.quorum":"uhadoop-cqybya-master1,uhadoop-cqybya-master2,uhadoop-cqybya-core1","hbase.rest.port":"60050"}
+
+
+old ie servers:
+
+
+ new ie servers:
+{"ieServers":[{"id":"imagesearch_train_002","state":"UP","ip":"10.10.11.33","port":"8088","url":"","weight":10}]}
+
+
+old sdk search servers:
+
+
+ new sdk search servers:
+{"sdkSearchServers":[{"sdk":[{"id":"searchfront_901","state":"UP","ip":"10.10.63.68","port":"8081","url":"/search/query","level":"question_bank_level_2","weight":10}]}]}
+
+
+old handwrite ocr servers:
+
+
+ new handwrite ocr servers:
+{"handwriteOcrServers":[{"id":"hw_ocr_001","state":"UP","ip":"10.10.4.109","port":"9996","url":"","weight":10},{"id":"hw_ocr_002","state":"UP","ip":"10.10.29.169","port":"9996","url":"","weight":10},{"id":"hw_ocr_003","state":"UP","ip":"10.10.28.79","port":"9996","url":"","weight":10},{"id":"hw_ocr_004","state":"UP","ip":"10.10.2.43","port":"9996","url":"","weight":10},{"id":"hw_ocr_005","state":"UP","ip":"10.10.59.58","port":"9996","url":"","weight":10},{"id":"hw_ocr_006","state":"UP","ip":"10.10.53.155","port":"9996","url":"","weight":10},{"id":"hw_ocr_007","state":"UP","ip":"10.10.45.194","port":"9996","url":"","weight":10},{"id":"hw_ocr_008","state":"UP","ip":"10.10.1.241","port":"9996","url":"","weight":10},{"id":"hw_ocr_009","state":"UP","ip":"10.10.61.115","port":"9996","url":"","weight":10},{"id":"hw_ocr_010","state":"UP","ip":"10.10.47.201","port":"9996","url":"","weight":10}]}
+
+
+old ugc config:
+
+
+ new ugc config:
+{"region":"cn-bj2","expireIn":7200,"publicKey":"gnG3Va/XmdDLkd+7AqnydcyG8gicX4E229RyiqlDVIc=","privateKey":"7611dabd38925dea42e64ae9726d152c5790f08f","commonApiUrl":"api.ucloud.cn","taskApiUrl":"api.ugc.service.ucloud.cn","imageName":"cn-bj2.ugchub.service.ucloud.cn/pzdy_ocr_nlp/hw_ugc:v3.06"}
+
+
+old search matrix servers:
+
+
+ new search matrix servers:
+{"searchMatrixServers":[{"id":"search-matrix","state":"UP","ip":"10.2.1.159","port":"8080","url":"","weight":10}]}
+
+
+

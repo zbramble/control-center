@@ -1,0 +1,15 @@
+{
+"mailHostSmtp":"smtp.exmail.qq.com",
+"mailPortSmtp":465,
+"mailHostImap":"imap.exmail.qq.com",
+"mailPortImap":993,
+"encryptionType":2,
+"auth":true,
+"mailHostAccount":"wenba_scheduler@wenba100.com",
+"mailHostPassword":"Wenbascheduler01",
+"configFilesMailRecipients":"bo.zhang@wenba100.com",
+"cnnServersMailRecipients":"bo.zhang@wenba100.com",
+"searchServersMailRecipients":"bo.zhang@wenba100.com",
+"nlpServersMailRecipients":"bo.zhang@wenba100.com",
+"configFilesMailSenders":"bo.zhang@wenba100.com"
+}

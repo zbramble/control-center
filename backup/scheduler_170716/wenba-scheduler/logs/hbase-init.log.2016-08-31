@@ -1,0 +1,4 @@
+HI->2016-08-31 10:45:18,282 INFO-Closing WebApplicationContext for namespace 'wenba-scheduler-servlet': startup date [Tue Aug 30 16:35:58 GMT+08:00 2016]; parent: Root WebApplicationContext
+HI->2016-08-31 10:45:18,289 INFO-Shutting down ExecutorService 'TimerTask'
+HI->2016-08-31 10:45:18,293 INFO-Shutting down ExecutorService
+HI->2016-08-31 10:45:18,308 INFO-Closing Root WebApplicationContext: startup date [Tue Aug 30 16:35:58 GMT+08:00 2016]; root of context hierarchy

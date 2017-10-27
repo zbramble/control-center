@@ -1,0 +1,4 @@
+{
+"biServers":[
+{"id":"aw_lb_001","state":"UP","ip":"bi-aw.xueba100.com","port":"8080","url":"/event","weight":100}]
+}

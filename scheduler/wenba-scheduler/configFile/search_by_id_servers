@@ -1,0 +1,4 @@
+{
+"searchByIdServers":[
+{"id":"ulb","state":"UP","ip":"10.10.248.192","port":"8081","url":"","weight":10}]
+}
